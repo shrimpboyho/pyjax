@@ -1,5 +1,3 @@
 all:
 	g++ src/pyjax.cpp -LC:\Python27\libs -IC:\Python27\include -lpython27  -o bin/thing
-	cd bin
-	thing
-	cd ..
+	bin/thing modules/py_function multiply
